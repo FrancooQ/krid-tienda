@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <NavBar/>
-      <ItemListContainer greeting={"¡Krid Argentina tienda virtual de moda y deporte!"}/>
+      <ItemListContainer greeting={"¡Krid Argentina tienda virtual de moda y deporte!!"}/>
     </div>
   );
 }
