@@ -7,10 +7,10 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 function App() {
 
   return (
-    <BrowserRouter>{/* A trabajar */}
+    <div>
       <NavBar/>
-      <ItemListContainer greeting={"¡Krid Argentina tienda virtual de moda y deporte!!!"}/>
-    </BrowserRouter>
+      <ItemListContainer greeting={"¡Krid Argentina tienda virtual de moda y deporte!"}/>
+    </div>
   );
 }
 
