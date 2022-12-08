@@ -1,4 +1,5 @@
 We suggest that you begin by typing:
 
   cd krid-kir
-  npm start
+  npm start!
+  [Uploading SegundaPreEntregaGif.gif…]()
