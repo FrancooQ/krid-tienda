@@ -1,37 +1,32 @@
 import React from "react";
+import Array from "../utils/products.json";
+import ItemDetail from "./ItemDetail";
 import { useEffect } from "react";
 import { useState } from "react";
-import Array from "../utils/products.json";
-import ItemList from "./ItemList";
 import { useParams } from "react-router-dom";
 
-
-
-const ItemListContainer = ({greeting}) => {
-
-    const [prod, setProd] = useState([]);
+const ItemDetailContainer = () => {
+    const [item, setItem] = useState([]);
     const {id} = useParams();
-
+    
     useEffect(() => {
         const prom = new Promise((resolve) => {
             setTimeout(() => {
-                resolve(id ? Array.filter(item => item.category === id) : Array);
+                resolve(Array.find(item => item.id === parseInt(id)));
             },2000);
         });
 
         prom.then((data) => {
-            setProd(data);
+            setItem(data);
         })
         
     },[id])
 
-    return(
+    return (
         <div className="container">
-            <div className="row">  
-                <ItemList prod={prod}/>
-            </div>
+            <ItemDetail item={item}/>
         </div>
     )
 }
 
-export default ItemListContainer; 
+export default ItemDetailContainer;

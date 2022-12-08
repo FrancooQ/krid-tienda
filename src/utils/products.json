@@ -1,0 +1,107 @@
+[
+    {
+      "id": 1,
+      "image": "https://essential.vtexassets.com/arquivos/ids/667776-800-auto?v=638059343697070000&width=800&height=auto&aspect=true",
+      "category": "Zapatillas",
+      "name": "ZAPATILLAS NIKE AIR FORCE 1 07 LV8",
+      "description": "ZAPATILLAS NIKE AIR FORCE 1 07 LV8 De Basket Para Hombre",
+      "price": 39.999,
+      "stock": 50,
+      "inital": 1,
+      "genero": "Hombre",
+      "marca": "Nike",
+      "talles": [
+        "8us",
+        "9us",
+        "10us"
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://essential.vtexassets.com/arquivos/ids/654962-800-auto?v=638038960554700000&width=800&height=auto&aspect=true",
+      "category": "Zapatillas",
+      "name": "ZAPATILLAS NEW BALANCE 306 CEL",
+      "description": "Zapatillas New Balance 306 Cel Unisex",
+      "price": 37.999,
+      "stock": 15,
+      "inital": 1,
+      "genero": "unisex",
+      "marca": "New Balance",
+      "talles": [
+        "6us",
+        "7us",
+        "8us",
+        "9us",
+        "10us"
+      ]
+    },
+    {
+      "id": 3,
+      "image": "https://essential.vtexassets.com/arquivos/ids/655812-800-auto?v=638040469220370000&width=800&height=auto&aspect=true",
+      "category": "Zapatillas",
+      "name": "ZAPATILLAS JORDAN AIR 1 LOW",
+      "description": "ZAPATILLAS JORDAN AIR 1 LOW De Moda Para Hombre",
+      "price": 46.999,
+      "stock": 4,
+      "inital": 1,
+      "genero": "Hombre",
+      "marca": "New Balance",
+      "talles": [
+        "8us",
+        "8.5us",
+        "9us",
+        "9.5us",
+        "10us"
+      ]
+    },
+    {
+      "id": 4,
+      "image": "https://essential.vtexassets.com/arquivos/ids/600525-800-auto?v=637955829013470000&width=800&height=auto&aspect=true",
+      "category": "Camperas",
+      "name": "ROMPEVIENTO NIKE NSW",
+      "description": "ROMPEVIENTO NIKE NSW De Moda Para Mujer",
+      "price": 40.999,
+      "stock": 10,
+      "inital": 1,
+      "genero": "Mujer",
+      "marca": "Nike",
+      "talles": [
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": 5,
+      "image": "https://essential.vtexassets.com/arquivos/ids/553755-800-auto?v=637871214930230000&width=800&height=auto&aspect=true",
+      "category": "Camperas",
+      "name": "CAMPERA PUMA ICONIC T7",
+      "description": "Una colección original de PUMA inspirada en la ropa deportiva T7, que se forjó un nombre en la industria con sus características franjas de 7cm y gozó de la misma popularidad tanto en las calles de las ciudades como en los campos de entrenamiento. Después de un tiempo alejada de los focos, se ha vuelto a reproducir fielmente para llegar a ser el icono que fue años atrás. Con franjas en las mangas y un ajuste elegante, esta chamarra deportiva hará que los clásicos vuelvan a la moda.",
+      "price": 18.299,
+      "stock": 10,
+      "inital": 1,
+      "genero": "Mujer",
+      "marca": "Puma",
+      "talles": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 6,
+      "image": "https://drifters.com.ar/uploads/product_image/25690/DriftersPDP_CW7064-063_Shot1.jpg",
+      "category": "Camperas",
+      "name": "NIKE SB HOODIE DK GREY HEATHER",
+      "description": "El buzo con capucha Nike SB Icon mantiene la calidez sobre la tabla y fuera de ella gracias al suave tejido Fleece y a la capucha regulable. Tejido Fleece de peso medio cepillado para una calidez y suavidad óptimas. El cordón te permite ponerte la capucha holgada o ajustada para protegerte del frío. Puños y dobladillo elásticos para mantener la capucha en su sitio mientras te moves. ",
+      "price": 23.499,
+      "stock": 8,
+      "inital": 1,
+      "genero": "Hombre",
+      "marca": "Nike",
+      "talles": [
+        "S",
+        "M"
+      ]
+    }
+]
