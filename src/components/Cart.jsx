@@ -45,7 +45,7 @@ const Cart = () => {
                                         <td className="align-middle">{item.name}</td>
                                         <td className="align-middle">{item.quantity}</td>
                                         <td className="align-middle">${item.price}</td>
-                                        <td className="align-middle">${item.quantity * item.price}</td>
+                                        <td className="align-middle">${(item.quantity * item.price).toFixed(3)}</td>
                                         <td className="align-middle"><Link onClick={() => {removeItem(item.id)}}><img src={"/images/trash.svg"} title={"Eliminar producto"} alt={"Eliminar producto"} width={32}/></Link></td>
                                     </tr>                  
                                     ))
@@ -53,7 +53,7 @@ const Cart = () => {
                             <tr>
                                 <td colSpan={4} className="text-end">Total a pagar:</td>
                                 <td>${sumTotal().toFixed(3)}</td>
-                                <td><button className="btn btn-danger"  title={"Ir a la facturación"}>Ir a Facturación</button></td>
+                                <td><Link to={"/checkout"} className="btn btn-danger" title={"Toca aquí para finalizar compra"}>Ir a Facturación</Link></td>
                             </tr>
                         </tbody>
                     </table>
